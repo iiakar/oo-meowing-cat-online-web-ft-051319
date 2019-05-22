@@ -16,6 +16,6 @@
 end
 
 
-lassie = Dog.new("Collie")
+#lassie = Dog.new("Collie")
  
-lassie.breed #=> "Collie"
+#lassie.breed #=> "Collie"
