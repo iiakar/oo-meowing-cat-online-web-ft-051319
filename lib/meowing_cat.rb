@@ -1,12 +1,21 @@
 ## code your solution here. 
 
   
-  class Cat
+  class Cat 
+  def initialize(breed)
+    @breed = breed
+  end
  
-  attr_accessor :name
+  def breed=(breed)
+    @breed = breed
+  end
  
- def meow 
-    puts "meow!"
- end 
+  def breed
+    @breed
+  end
+end
+
+
+lassie = Dog.new("Collie")
  
-end 
+lassie.breed #=> "Collie"
